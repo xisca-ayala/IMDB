@@ -13,14 +13,16 @@ var Professional = /** @class */ (function () {
         this.profession = profession;
     }
     Professional.prototype.printProperties = function () {
-        var arrayProperties = [this.name,
+        var arrayProperties = [
+            this.name,
             this.age,
             this.weight,
             this.height,
             this.isRetired,
             this.nationality,
             this.oscarNumber,
-            this.profession];
+            this.profession
+        ];
         return arrayProperties;
     };
     return Professional;
