@@ -20,7 +20,8 @@ export class Professional{
     }
 
     public printProperties():(string | number| boolean)[] {
-        let arrayProperties = [this.name,
+        let arrayProperties = [
+            this.name,
             this.age, 
             this.weight, 
             this.height, 
